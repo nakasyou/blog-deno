@@ -11,7 +11,12 @@ blog({
   avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
   avatarClass: "rounded-full",
   author: "nakasyou",
-
+  links: [
+    { title: "Email", url: "mailto:nakasyou1103@gmail.com" },
+    { title: "GitHub", url: "https://github.com/nakasyou" },
+    { title: "Twitter", url: "https://twitter.com/nakasyou0" },
+    { title: "Element", url: "https://matrix.to/#/@nakasyou:matrix.org" },
+  ],
   // middlewares: [
 
     // If you want to set up Google Analytics, paste your GA key here.
