@@ -5,9 +5,9 @@ import blog, { ga, redirects, h } from "blog";
 blog({
   title: "My Blog",
   description: "This is my new blog.",
-  // header: <header>Your custom header</header>,
+  header: <header>nakasyou's blog</header>,
   // section: <section>Your custom section</section>,
-  // footer: <footer>Your custom footer</footer>,
+  footer: <footer>&copy;2023 nakasyou</footer>,
   avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
   avatarClass: "rounded-full",
   author: "An author",
