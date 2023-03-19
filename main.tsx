@@ -11,7 +11,15 @@ blog({
   avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
   avatarClass: "rounded-full",
   script: ctx=>{
-    ctx.scripts.push(`alert(0)`)
+    ctx.scripts.push(`
+const css=document.createElement("link");
+css.rel="stylesheet";
+css.href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css";
+document.head.append(css);
+const js=document.createElement("script");
+js.src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js";
+document.head.append(js)
+`);
   },
   author: "nakasyou",
   links: [
