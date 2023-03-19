@@ -10,7 +10,9 @@ blog({
   // footer: <footer>&copy;2023 nakasyou</footer>,
   avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
   avatarClass: "rounded-full",
-  script:"alert(0)",
+  script: ctx=>{
+    ctx.scripts.push(`alert(0)`)
+  },
   author: "nakasyou",
   links: [
     { title: "Email", url: "mailto:nakasyou1103@gmail.com" },
