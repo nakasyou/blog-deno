@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import blog, { ga, redirects, h } from "https://raw.githubusercontent.com/nakasyou/deno_blog/main/blog.tsx";
+import blog, { ga, redirects, h } from "https://raw.githubusercontent.com/nakasyou/deno_blog/main/blog.tsx?u=1";
 
 blog({
   title: "nakasyou's blog",
