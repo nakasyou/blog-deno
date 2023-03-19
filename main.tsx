@@ -18,7 +18,10 @@ css.href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.mi
 document.head.append(css);
 const js=document.createElement("script");
 js.src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js";
-document.head.append(js)
+document.head.append(js);
+setTimeout(e=>{
+  hljs.highlightAll();
+},500);
 `);
   },
   author: "nakasyou",
